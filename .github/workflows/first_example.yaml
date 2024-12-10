@@ -9,11 +9,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
 
-            - name: Welcome message
-              run: echo "My first Github Action Job"
-            
-            - name: List fils
-              run: ls
-
-            - name: Read file
-              run: cat README.md
+            - name: Generate ASCII Artwork
+              run: |
+               cowsay -f dragon "Hello World!!!" >> dragon.txt
+               sudo apt install cowsay
