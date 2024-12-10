@@ -11,6 +11,6 @@ jobs:
 
             - name: Generate ASCII Artwork
               run: |
-               cowsay -f dragon "Hello World!!!" >> dragon.txt
                sudo apt install cowsay
+               cowsay -f dragon "Hello World!!!" >> dragon.txt
                cat dragon.txt
