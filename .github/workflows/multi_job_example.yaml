@@ -27,6 +27,9 @@ jobs:
               with:
                 name: dragon
 
+            - name: List files
+              run: ls -la
+
             - name: Test that file exists
               run: grep -i "dragon" dragon
 
