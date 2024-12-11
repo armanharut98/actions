@@ -31,7 +31,7 @@ jobs:
               run: ls -la
 
             - name: Test that file exists
-              run: grep -i "dragon" dragon.txt
+              run: grep -i "world" dragon.txt
 
 
     deploy_job:
