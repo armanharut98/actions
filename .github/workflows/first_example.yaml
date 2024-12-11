@@ -14,4 +14,3 @@ jobs:
               run: |
                 chmod +x ./ascii_script.sh
                 ./ascii_script.sh "Hello, World!!!"
-
