@@ -28,7 +28,7 @@ jobs:
                 name: dragon
 
             - name: Test that file exists
-              run: grep -i "dragon" dragon.txt
+              run: grep -i "dragon" dragon
 
 
     deploy_job:
@@ -41,5 +41,5 @@ jobs:
                 name: dragon
 
             - name: Output Artwork
-              run: cat dragon.txt
+              run: cat dragon
 
